@@ -17,7 +17,9 @@ const router = createBrowserRouter([
     path: "/articles/:slug",
     element: <ArticlePage />,
   },
-]);
+], {
+  basename: "/react_4block13_project/"
+  });
 
 function App() {
   return (
