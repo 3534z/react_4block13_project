@@ -1,0 +1,56 @@
+.article-banner {
+  background-color: #333333;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 10%;
+}
+
+.article-title {
+  color: white;
+}
+
+.article-author {
+  color: #61bb61;
+}
+
+.article-date {
+  color: #aaaaaa;
+}
+
+.article-personal-info {
+  display: flex;
+  align-items: center;
+}
+
+.article-icon-img {
+  margin-right: 10px;
+}
+
+.article-author {
+  color: #61bb61;
+  font-weight: 600;
+}
+
+.article-date {
+  color: #aaaaaa;
+  font-size: 13px;
+}
+
+.article-content {
+  text-align: left;
+  padding: 40px 10%;
+}
+
+.article-tag {
+  border: 1px solid #aaaaaa;
+  color: #aaaaaa;
+  border-radius: 20px;
+  padding: 4px 15px;
+  margin: 10px 5px;
+}
+
+.article-body {
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
