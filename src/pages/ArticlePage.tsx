@@ -70,7 +70,7 @@ function ArticlePage() {
         <h1 className="article-title">{article.title}</h1>
         <div className="article-personal-info">
           <div className="article-icon-img">
-            <img src="../img/Icon.svg" alt="" />
+            <img src={`${import.meta.env.BASE_URL}img/Icon.svg`}/>
           </div>
           <div>
             <p className="article-author">{article.author.username}</p>

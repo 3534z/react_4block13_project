@@ -78,7 +78,7 @@ function ArticlesPage() {
             <div className="top_info">
               <div className="personal-info">
                 <div className="icon-img">
-                  <img src="../img/Icon.svg" alt="" />
+                  <img src={`${import.meta.env.BASE_URL}img/Icon.svg`} />
                 </div>
                 <div>
                   <p className="author">{article.author.username}</p>
@@ -92,7 +92,7 @@ function ArticlesPage() {
                 </div>
               </div>
               <div className="count_info">
-                <img src="../img/Variant=WithIcon.svg" alt="" />
+                <img src={`${import.meta.env.BASE_URL}img/Like.svg`} />
                 <p className="count">{article.favoritesCount}</p>
               </div>
             </div>
